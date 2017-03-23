@@ -148,16 +148,16 @@ def main():
 
 	while(True):
 		# Turn servos to the 0 angle position
-		standardServo.setAngle(90.0)
-		microServo.setAngle(90.0)
+		standardServo.setAngle(0.0)
+		microServo.setAngle(0.0)
 		time.sleep(2)
 		# Turn servos to the neutral position
 		standardServo.setAngle(90.0)
 		microServo.setAngle(90.0)
 		time.sleep(2)
 		# Turn servos to the 180 angle position
-		standardServo.setAngle(90.0)
-		microServo.setAngle(90.0)
+		standardServo.setAngle(180.0)
+		microServo.setAngle(180.0)
 		time.sleep(2)
 if __name__ == '__main__':
 	main()
